@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Which of these is a software development methodology?",
+    "options": [
+      "Waterfall",
+      "Agile",
+      "Scrum",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "In version control, what does 'git commit' do?",
+    "options": [
+      "Saves changes locally",
+      "Uploads to server",
+      "Deletes a branch",
+      "Checks logs"
+    ],
+    "answer": "Saves changes locally"
+  },
+  {
+    "question": "What does CI/CD stand for?",
+    "options": [
+      "Continuous Integration/Continuous Deployment",
+      "Code Integration/Code Development",
+      "Centralized Infrastructure/Continuous Delivery",
+      "Continuous Improvement/Continuous Debugging"
+    ],
+    "answer": "Continuous Integration/Continuous Deployment"
+  },
+  {
+    "question": "Which language is mainly used for Android development?",
+    "options": [
+      "Java",
+      "Kotlin",
+      "C#",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "What is pair programming?",
+    "options": [
+      "Two developers coding together",
+      "Two computers sharing one IDE",
+      "Coding without breaks",
+      "Reviewing code only"
+    ],
+    "answer": "Two developers coding together"
+  },
+  {
+    "question": "What is the main purpose of unit testing?",
+    "options": [
+      "Test modules individually",
+      "Test whole system",
+      "Test network speed",
+      "Test UI"
+    ],
+    "answer": "Test modules individually"
+  },
+  {
+    "question": "What is refactoring?",
+    "options": [
+      "Changing code structure without altering behavior",
+      "Deleting old code",
+      "Rewriting all code",
+      "Optimizing databases"
+    ],
+    "answer": "Changing code structure without altering behavior"
+  },
+  {
+    "question": "Which diagram shows system interactions?",
+    "options": [
+      "Flowchart",
+      "Class diagram",
+      "Sequence diagram",
+      "Gantt chart"
+    ],
+    "answer": "Sequence diagram"
+  },
+  {
+    "question": "Which tool is commonly used for issue tracking?",
+    "options": [
+      "Jira",
+      "Slack",
+      "Zoom",
+      "Photoshop"
+    ],
+    "answer": "Jira"
+  },
+  {
+    "question": "What is technical debt?",
+    "options": [
+      "Pending tasks",
+      "Shortcuts in code",
+      "Old bug reports",
+      "Test cases not written"
+    ],
+    "answer": "Shortcuts in code"
+  },
+  {
+    "question": "Which principle means 'Don't Repeat Yourself'?",
+    "options": [
+      "SOLID",
+      "DRY",
+      "KISS",
+      "YAGNI"
+    ],
+    "answer": "DRY"
+  },
+  {
+    "question": "What is API?",
+    "options": [
+      "Application Programming Interface",
+      "Advanced Program Integration",
+      "Application Protocol Internet",
+      "Algorithmic Program Interface"
+    ],
+    "answer": "Application Programming Interface"
+  },
+  {
+    "question": "Which of these is a build automation tool?",
+    "options": [
+      "Maven",
+      "Gradle",
+      "Ant",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "Which testing is done without knowledge of internal code?",
+    "options": [
+      "Unit testing",
+      "Black-box testing",
+      "White-box testing",
+      "Integration testing"
+    ],
+    "answer": "Black-box testing"
+  },
+  {
+    "question": "Which lifecycle model allows incremental releases?",
+    "options": [
+      "Waterfall",
+      "Spiral",
+      "Agile",
+      "Big Bang"
+    ],
+    "answer": "Agile"
+  },
+  {
+    "question": "Which programming language is known for system programming?",
+    "options": [
+      "Python",
+      "C",
+      "JavaScript",
+      "PHP"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which database is relational?",
+    "options": [
+      "MongoDB",
+      "MySQL",
+      "Cassandra",
+      "Redis"
+    ],
+    "answer": "MySQL"
+  },
+  {
+    "question": "Which approach is best for managing requirements change?",
+    "options": [
+      "Waterfall",
+      "Agile",
+      "V-Model",
+      "Spiral"
+    ],
+    "answer": "Agile"
+  },
+  {
+    "question": "What is continuous integration?",
+    "options": [
+      "Merging code frequently",
+      "Releasing daily",
+      "Automating builds only",
+      "Code reviews"
+    ],
+    "answer": "Merging code frequently"
+  },
+  {
+    "question": "What is the main purpose of version control?",
+    "options": [
+      "Tracking changes",
+      "Managing tasks",
+      "Automating builds",
+      "Testing code"
+    ],
+    "answer": "Tracking changes"
+  }
+]

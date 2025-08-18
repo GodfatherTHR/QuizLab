@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Supervised learning requires:",
+    "options": [
+      "Labeled data",
+      "Unlabeled data",
+      "Reinforcement signals",
+      "No data"
+    ],
+    "answer": "Labeled data"
+  },
+  {
+    "question": "Which algorithm is for classification?",
+    "options": [
+      "Linear Regression",
+      "K-Means",
+      "Logistic Regression",
+      "PCA"
+    ],
+    "answer": "Logistic Regression"
+  },
+  {
+    "question": "What is overfitting?",
+    "options": [
+      "Model fits noise",
+      "Model underfits",
+      "Perfect generalization",
+      "No regularization effect"
+    ],
+    "answer": "Model fits noise"
+  },
+  {
+    "question": "Which technique reduces overfitting?",
+    "options": [
+      "Dropout",
+      "BatchNorm only",
+      "Data leakage",
+      "Increasing parameters"
+    ],
+    "answer": "Dropout"
+  },
+  {
+    "question": "What does ReLU stand for?",
+    "options": [
+      "Rectified Linear Unit",
+      "Reduced Linear Unit",
+      "Rapid Linear Unit",
+      "Random Linear Unit"
+    ],
+    "answer": "Rectified Linear Unit"
+  },
+  {
+    "question": "Which metric for imbalanced classification?",
+    "options": [
+      "Accuracy",
+      "F1-score",
+      "MSE",
+      "MAE"
+    ],
+    "answer": "F1-score"
+  },
+  {
+    "question": "K in K-Means is:",
+    "options": [
+      "# of clusters",
+      "Learning rate",
+      "Batch size",
+      "Epochs"
+    ],
+    "answer": "# of clusters"
+  },
+  {
+    "question": "Which is dimensionality reduction?",
+    "options": [
+      "t-SNE",
+      "SVM",
+      "Random Forest",
+      "Naive Bayes"
+    ],
+    "answer": "t-SNE"
+  },
+  {
+    "question": "What is gradient descent?",
+    "options": [
+      "Optimizer",
+      "Activation",
+      "Loss",
+      "Layer"
+    ],
+    "answer": "Optimizer"
+  },
+  {
+    "question": "Which is a loss for regression?",
+    "options": [
+      "Cross-Entropy",
+      "Hinge",
+      "MSE",
+      "Focal"
+    ],
+    "answer": "MSE"
+  },
+  {
+    "question": "Which library is for deep learning?",
+    "options": [
+      "NumPy",
+      "Pandas",
+      "TensorFlow",
+      "Matplotlib"
+    ],
+    "answer": "TensorFlow"
+  },
+  {
+    "question": "What is regularization?",
+    "options": [
+      "Penalty to reduce complexity",
+      "Data normalization",
+      "Hyperparameter tuning",
+      "Batching"
+    ],
+    "answer": "Penalty to reduce complexity"
+  },
+  {
+    "question": "Which is a tree-based ensemble?",
+    "options": [
+      "AdaBoost",
+      "kNN",
+      "PCA",
+      "LDA"
+    ],
+    "answer": "AdaBoost"
+  },
+  {
+    "question": "What is ROC AUC?",
+    "options": [
+      "Area under ROC curve",
+      "Rate of change",
+      "Residual of correlation",
+      "Random overlap coefficient"
+    ],
+    "answer": "Area under ROC curve"
+  },
+  {
+    "question": "Reinforcement learning optimizes:",
+    "options": [
+      "Reward",
+      "Loss",
+      "Variance",
+      "Entropy"
+    ],
+    "answer": "Reward"
+  },
+  {
+    "question": "What does PCA maximize?",
+    "options": [
+      "Variance captured",
+      "Reconstruction error",
+      "Sparsity",
+      "Correlation"
+    ],
+    "answer": "Variance captured"
+  },
+  {
+    "question": "What is early stopping?",
+    "options": [
+      "Stop training when val metric degrades",
+      "Reduce LR",
+      "Prune neurons",
+      "Reset weights"
+    ],
+    "answer": "Stop training when val metric degrades"
+  },
+  {
+    "question": "Word2Vec learns:",
+    "options": [
+      "Word embeddings",
+      "Parsing trees",
+      "Grammars",
+      "Stopwords"
+    ],
+    "answer": "Word embeddings"
+  },
+  {
+    "question": "What is a confusion matrix?",
+    "options": [
+      "Table of TP/FP/FN/TN",
+      "Learning rate schedule",
+      "Optimizer config",
+      "Normalization scheme"
+    ],
+    "answer": "Table of TP/FP/FN/TN"
+  },
+  {
+    "question": "Softmax outputs:",
+    "options": [
+      "Logits",
+      "Probabilities",
+      "Gradients",
+      "Residuals"
+    ],
+    "answer": "Probabilities"
+  }
+]

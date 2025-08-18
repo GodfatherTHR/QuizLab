@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Which language runs in a web browser?",
+    "options": [
+      "Java",
+      "C",
+      "Python",
+      "JavaScript"
+    ],
+    "answer": "JavaScript"
+  },
+  {
+    "question": "Which of these is a compiled language?",
+    "options": [
+      "Python",
+      "Ruby",
+      "Go",
+      "JavaScript"
+    ],
+    "answer": "Go"
+  },
+  {
+    "question": "What does OOP stand for?",
+    "options": [
+      "Object Over Programming",
+      "Object Oriented Programming",
+      "Open Object Protocol",
+      "Ordered Object Paradigm"
+    ],
+    "answer": "Object Oriented Programming"
+  },
+  {
+    "question": "Which data structure uses LIFO?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Tree",
+      "Graph"
+    ],
+    "answer": "Stack"
+  },
+  {
+    "question": "Which keyword declares a constant in JavaScript?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "static"
+    ],
+    "answer": "const"
+  },
+  {
+    "question": "In Python, what is PEP 8?",
+    "options": [
+      "Package Manager",
+      "Style Guide",
+      "Debugger",
+      "Runtime"
+    ],
+    "answer": "Style Guide"
+  },
+  {
+    "question": "Which language introduced generics with templates early on?",
+    "options": [
+      "C",
+      "C++",
+      "Java",
+      "Kotlin"
+    ],
+    "answer": "C++"
+  },
+  {
+    "question": "Which command initializes a Git repository?",
+    "options": [
+      "git start",
+      "git init",
+      "git new",
+      "git repo"
+    ],
+    "answer": "git init"
+  },
+  {
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Sequential Query Logic",
+      "Server Query Language",
+      "Set Query Language"
+    ],
+    "answer": "Structured Query Language"
+  },
+  {
+    "question": "Which of these is NOT a programming paradigm?",
+    "options": [
+      "Functional",
+      "Procedural",
+      "Declarative",
+      "Orthogonal"
+    ],
+    "answer": "Orthogonal"
+  },
+  {
+    "question": "Which JavaScript array method creates a new array with elements that pass a test?",
+    "options": [
+      "map",
+      "filter",
+      "reduce",
+      "slice"
+    ],
+    "answer": "filter"
+  },
+  {
+    "question": "In Java, which keyword is used to inherit a class?",
+    "options": [
+      "with",
+      "extend",
+      "extends",
+      "inherits"
+    ],
+    "answer": "extends"
+  },
+  {
+    "question": "What is the file extension for TypeScript?",
+    "options": [
+      ".jt",
+      ".ts",
+      ".tsx",
+      ".ty"
+    ],
+    "answer": ".ts"
+  },
+  {
+    "question": "What is Big O for binary search on a sorted array?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "answer": "O(log n)"
+  },
+  {
+    "question": "Which command creates a new branch in Git?",
+    "options": [
+      "git branch <name>",
+      "git make-branch <name>",
+      "git new <name>",
+      "git split <name>"
+    ],
+    "answer": "git branch <name>"
+  },
+  {
+    "question": "Which Python structure is immutable?",
+    "options": [
+      "List",
+      "Set",
+      "Dict",
+      "Tuple"
+    ],
+    "answer": "Tuple"
+  },
+  {
+    "question": "What does REST stand for?",
+    "options": [
+      "Representational State Transfer",
+      "Reliable Simple Transport",
+      "Remote Execution Service Type",
+      "Resource Endpoint State Transport"
+    ],
+    "answer": "Representational State Transfer"
+  },
+  {
+    "question": "Which of the following is a NoSQL DB?",
+    "options": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "SQLite"
+    ],
+    "answer": "MongoDB"
+  },
+  {
+    "question": "What port does HTTP typically use?",
+    "options": [
+      "21",
+      "22",
+      "80",
+      "3306"
+    ],
+    "answer": "80"
+  },
+  {
+    "question": "Which operator is strict equality in JavaScript?",
+    "options": [
+      "==",
+      "!=",
+      "===",
+      "!=="
+    ],
+    "answer": "==="
+  },
+  {
+    "question": "Which language primarily uses the JVM?",
+    "options": [
+      "C#",
+      "Scala",
+      "Rust",
+      "Go"
+    ],
+    "answer": "Scala"
+  },
+  {
+    "question": "Which command shows commit history in Git?",
+    "options": [
+      "git status",
+      "git log",
+      "git commits",
+      "git history"
+    ],
+    "answer": "git log"
+  }
+]

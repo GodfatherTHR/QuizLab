@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What does CIA triad stand for?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Inspect, Audit",
+      "Confidentiality, Identity, Access",
+      "Cyber, Internet, Access"
+    ],
+    "answer": "Confidentiality, Integrity, Availability"
+  },
+  {
+    "question": "What is phishing?",
+    "options": [
+      "Brute-force attack",
+      "Social engineering via deceptive messages",
+      "SQL injection",
+      "DoS attack"
+    ],
+    "answer": "Social engineering via deceptive messages"
+  },
+  {
+    "question": "What does 2FA stand for?",
+    "options": [
+      "Two-Factor Authentication",
+      "Two-File Access",
+      "Trust-First Access",
+      "Two-Fold Authorization"
+    ],
+    "answer": "Two-Factor Authentication"
+  },
+  {
+    "question": "Which protocol secures HTTP?",
+    "options": [
+      "FTP",
+      "SSH",
+      "HTTPS",
+      "SMTP"
+    ],
+    "answer": "HTTPS"
+  },
+  {
+    "question": "Which is a common password hashing algorithm?",
+    "options": [
+      "MD5",
+      "Base64",
+      "AES",
+      "RSA"
+    ],
+    "answer": "MD5"
+  },
+  {
+    "question": "What is least privilege?",
+    "options": [
+      "Giving maximum access",
+      "Minimal required access",
+      "Guest-only access",
+      "Root access"
+    ],
+    "answer": "Minimal required access"
+  },
+  {
+    "question": "What is a firewall?",
+    "options": [
+      "Encryption algorithm",
+      "Network traffic filter",
+      "Anti-virus",
+      "Backup system"
+    ],
+    "answer": "Network traffic filter"
+  },
+  {
+    "question": "What is XSS?",
+    "options": [
+      "Cross-Site Scripting",
+      "Cross-Site Security",
+      "XML Schema Security",
+      "Cross Server Script"
+    ],
+    "answer": "Cross-Site Scripting"
+  },
+  {
+    "question": "What is a zero-day?",
+    "options": [
+      "Vulnerability with no known exploit",
+      "Exploit for an unknown vulnerability",
+      "Exploit publicly known and patched",
+      "Vulnerability discovered on day zero of employment"
+    ],
+    "answer": "Exploit for an unknown vulnerability"
+  },
+  {
+    "question": "What port does SSH use by default?",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "25"
+    ],
+    "answer": "22"
+  },
+  {
+    "question": "What is salting?",
+    "options": [
+      "Adding random data to passwords before hashing",
+      "Encrypting with AES",
+      "Compressing logs",
+      "Adding checksums"
+    ],
+    "answer": "Adding random data to passwords before hashing"
+  },
+  {
+    "question": "What is ransomware?",
+    "options": [
+      "Malware encrypting data for payment",
+      "Spyware",
+      "Adware",
+      "Trojan for remote access"
+    ],
+    "answer": "Malware encrypting data for payment"
+  },
+  {
+    "question": "What is OWASP Top 10?",
+    "options": [
+      "Web security risks list",
+      "Crypto library",
+      "Network protocol",
+      "Linux hardening guide"
+    ],
+    "answer": "Web security risks list"
+  },
+  {
+    "question": "What is social engineering?",
+    "options": [
+      "Bypassing a login screen",
+      "Manipulating people to reveal info",
+      "Buffer overflow",
+      "Physical tampering"
+    ],
+    "answer": "Manipulating people to reveal info"
+  },
+  {
+    "question": "What is a VPN?",
+    "options": [
+      "Virtual Private Network",
+      "Verified Public Network",
+      "Virtual Protected Node",
+      "Virtual Proxy Net"
+    ],
+    "answer": "Virtual Private Network"
+  },
+  {
+    "question": "Which is NOT multi-factor?",
+    "options": [
+      "Password + OTP",
+      "Password only",
+      "Password + Hardware key",
+      "Password + Push"
+    ],
+    "answer": "Password only"
+  },
+  {
+    "question": "What is SQL injection?",
+    "options": [
+      "Injecting SQL in input fields",
+      "Sending packets quickly",
+      "Forging emails",
+      "Overflowing buffers"
+    ],
+    "answer": "Injecting SQL in input fields"
+  },
+  {
+    "question": "What does TLS provide?",
+    "options": [
+      "Compression",
+      "Encryption & authentication",
+      "DNS resolution",
+      "Routing"
+    ],
+    "answer": "Encryption & authentication"
+  },
+  {
+    "question": "What is brute force?",
+    "options": [
+      "Trying many passwords systematically",
+      "Flooding with traffic",
+      "Exploiting logic flaws",
+      "Bypassing CAPTCHA"
+    ],
+    "answer": "Trying many passwords systematically"
+  },
+  {
+    "question": "What is a honeypot?",
+    "options": [
+      "A fake target to lure attackers",
+      "A trapdoor in software",
+      "A key escrow",
+      "A password manager"
+    ],
+    "answer": "A fake target to lure attackers"
+  }
+]

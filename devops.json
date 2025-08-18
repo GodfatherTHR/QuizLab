@@ -1,0 +1,202 @@
+[
+  {
+    "question": "CI stands for:",
+    "options": [
+      "Continuous Integration",
+      "Centralized Infrastructure",
+      "Container Instance",
+      "Continuous Inspection"
+    ],
+    "answer": "Continuous Integration"
+  },
+  {
+    "question": "CD often means:",
+    "options": [
+      "Continuous Delivery/Deployment",
+      "Container Distribution",
+      "Config Drift",
+      "Centralized Dev"
+    ],
+    "answer": "Continuous Delivery/Deployment"
+  },
+  {
+    "question": "Infrastructure as Code tool:",
+    "options": [
+      "Ansible",
+      "Terraform",
+      "CloudFormation",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "What is Docker?",
+    "options": [
+      "Container runtime & tooling",
+      "VM hypervisor",
+      "DB",
+      "CI server"
+    ],
+    "answer": "Container runtime & tooling"
+  },
+  {
+    "question": "Kubernetes object for pods set:",
+    "options": [
+      "Service",
+      "Deployment",
+      "ConfigMap",
+      "Secret"
+    ],
+    "answer": "Deployment"
+  },
+  {
+    "question": "Observability stack example:",
+    "options": [
+      "ELK",
+      "LAMP",
+      "MEAN",
+      "JAM"
+    ],
+    "answer": "ELK"
+  },
+  {
+    "question": "GitHub Actions is:",
+    "options": [
+      "CI/CD platform",
+      "DB",
+      "Monitoring",
+      "Cloud provider"
+    ],
+    "answer": "CI/CD platform"
+  },
+  {
+    "question": "Blue/Green is used for:",
+    "options": [
+      "Network routing",
+      "Zero-downtime deploys",
+      "API auth",
+      "Caching"
+    ],
+    "answer": "Zero-downtime deploys"
+  },
+  {
+    "question": "What is Helm?",
+    "options": [
+      "K8s package manager",
+      "Docker image builder",
+      "Cloud CLI",
+      "Secret manager"
+    ],
+    "answer": "K8s package manager"
+  },
+  {
+    "question": "What is a runbook?",
+    "options": [
+      "Incident procedure doc",
+      "K8s controller",
+      "CI job",
+      "Alert rule"
+    ],
+    "answer": "Incident procedure doc"
+  },
+  {
+    "question": "What is drift?",
+    "options": [
+      "Config diverging from desired state",
+      "Load spike",
+      "Network jitter",
+      "Disk fragmentation"
+    ],
+    "answer": "Config diverging from desired state"
+  },
+  {
+    "question": "Immutable infrastructure means:",
+    "options": [
+      "Servers never change in place",
+      "Static websites",
+      "Only containers",
+      "No updates"
+    ],
+    "answer": "Servers never change in place"
+  },
+  {
+    "question": "What is canary analysis?",
+    "options": [
+      "Auto-scaling",
+      "Comparing new vs baseline metrics",
+      "DNS failover",
+      "TLS renewal"
+    ],
+    "answer": "Comparing new vs baseline metrics"
+  },
+  {
+    "question": "Which tool builds Docker images?",
+    "options": [
+      "Packer",
+      "BuildKit",
+      "Grafana",
+      "Vault"
+    ],
+    "answer": "BuildKit"
+  },
+  {
+    "question": "SRE stands for:",
+    "options": [
+      "Site Reliability Engineering",
+      "Secure Runtime Environment",
+      "Service Runtime Engine",
+      "Software Reliability Evaluation"
+    ],
+    "answer": "Site Reliability Engineering"
+  },
+  {
+    "question": "What is a Secret in K8s?",
+    "options": [
+      "Encrypted storage",
+      "Key-value intended for sensitive data",
+      "RBAC role",
+      "Pod annotation"
+    ],
+    "answer": "Key-value intended for sensitive data"
+  },
+  {
+    "question": "Terraform state stores:",
+    "options": [
+      "DB records",
+      "Desired/actual infra resources",
+      "Container logs",
+      "Metrics"
+    ],
+    "answer": "Desired/actual infra resources"
+  },
+  {
+    "question": "What is Argo CD?",
+    "options": [
+      "K8s GitOps CD",
+      "DB",
+      "Queue",
+      "Load balancer"
+    ],
+    "answer": "K8s GitOps CD"
+  },
+  {
+    "question": "What is Prometheus?",
+    "options": [
+      "Time-series DB + monitoring",
+      "CI tool",
+      "Message queue",
+      "Config manager"
+    ],
+    "answer": "Time-series DB + monitoring"
+  },
+  {
+    "question": "Feature flagging enables:",
+    "options": [
+      "Runtime toggling of features",
+      "DNS routing",
+      "TLS pinning",
+      "Backup rotation"
+    ],
+    "answer": "Runtime toggling of features"
+  }
+]

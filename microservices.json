@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Microservices are:",
+    "options": [
+      "Monolithic",
+      "Small independent services",
+      "Single process",
+      "Only frontend"
+    ],
+    "answer": "Small independent services"
+  },
+  {
+    "question": "Service discovery finds:",
+    "options": [
+      "Database schemas",
+      "Service instances",
+      "User sessions",
+      "Secrets"
+    ],
+    "answer": "Service instances"
+  },
+  {
+    "question": "API Gateway role is to:",
+    "options": [
+      "Store images",
+      "Route requests",
+      "Run cron jobs",
+      "Compile code"
+    ],
+    "answer": "Route requests"
+  },
+  {
+    "question": "Which is NOT a microservices pattern?",
+    "options": [
+      "Circuit Breaker",
+      "Saga",
+      "Repository",
+      "Strangler"
+    ],
+    "answer": "Repository"
+  },
+  {
+    "question": "Container orchestration platform:",
+    "options": [
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Nginx"
+    ],
+    "answer": "Kubernetes"
+  },
+  {
+    "question": "Event-driven microservices use:",
+    "options": [
+      "HTTP only",
+      "Queues/Streams",
+      "FTP",
+      "RPC only"
+    ],
+    "answer": "Queues/Streams"
+  },
+  {
+    "question": "Polyglot persistence means:",
+    "options": [
+      "One DB type only",
+      "Multiple DB types",
+      "No DB",
+      "Flat files"
+    ],
+    "answer": "Multiple DB types"
+  },
+  {
+    "question": "Observability includes:",
+    "options": [
+      "Logging, metrics, tracing",
+      "DNS, CDN, cache",
+      "OAuth, JWT, SAML",
+      "Cache, queues, locks"
+    ],
+    "answer": "Logging, metrics, tracing"
+  },
+  {
+    "question": "12-factor apps emphasize:",
+    "options": [
+      "Stateful services",
+      "Config in env",
+      "Shared disk",
+      "Tight coupling"
+    ],
+    "answer": "Config in env"
+  },
+  {
+    "question": "Sidecar pattern runs:",
+    "options": [
+      "In same process",
+      "In same pod separate container",
+      "On another server only",
+      "On client device"
+    ],
+    "answer": "In same pod separate container"
+  },
+  {
+    "question": "Service-to-service auth commonly uses:",
+    "options": [
+      "JWT/mTLS",
+      "Cookies",
+      "Basic only",
+      "OAuth implicit"
+    ],
+    "answer": "JWT/mTLS"
+  },
+  {
+    "question": "Blue/Green deployment provides:",
+    "options": [
+      "Two regions",
+      "Switchable prod stacks",
+      "Dev-only environments",
+      "No rollbacks"
+    ],
+    "answer": "Switchable prod stacks"
+  },
+  {
+    "question": "Saga coordinates:",
+    "options": [
+      "Distributed transactions",
+      "Logging",
+      "Schema migrations",
+      "API docs"
+    ],
+    "answer": "Distributed transactions"
+  },
+  {
+    "question": "Rate limiting protects:",
+    "options": [
+      "Backends from abuse",
+      "DNS from cache",
+      "CSS from overrides",
+      "CDN from origins"
+    ],
+    "answer": "Backends from abuse"
+  },
+  {
+    "question": "Service mesh example:",
+    "options": [
+      "Istio",
+      "Express",
+      "Flask",
+      "Spring Boot"
+    ],
+    "answer": "Istio"
+  },
+  {
+    "question": "Idempotency ensures:",
+    "options": [
+      "Same result on retries",
+      "No errors ever",
+      "Faster requests",
+      "Encrypted traffic"
+    ],
+    "answer": "Same result on retries"
+  },
+  {
+    "question": "Canary release means:",
+    "options": [
+      "Deploy to all users",
+      "Deploy to subset first",
+      "Roll back only",
+      "Blue vs green"
+    ],
+    "answer": "Deploy to subset first"
+  },
+  {
+    "question": "OpenAPI is for:",
+    "options": [
+      "API specification",
+      "Service discovery",
+      "Logging format",
+      "Tracing protocol"
+    ],
+    "answer": "API specification"
+  },
+  {
+    "question": "CQRS splits:",
+    "options": [
+      "Reads and writes",
+      "Frontend and backend",
+      "Cache and DB",
+      "Auth and sessions"
+    ],
+    "answer": "Reads and writes"
+  },
+  {
+    "question": "Backpressure is:",
+    "options": [
+      "Network slowdown",
+      "Controlling producer rate",
+      "DB sharding",
+      "TLS handshake"
+    ],
+    "answer": "Controlling producer rate"
+  }
+]

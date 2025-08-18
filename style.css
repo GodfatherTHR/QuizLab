@@ -1,0 +1,301 @@
+
+:root {
+  /* Light theme (default) */
+  --bg: #ffffff;
+  --card: #f8f9fa;
+  --text: #1a1a1a;
+  --muted: #5c6268;
+  --primary: #3a6ff4;
+  --primary-hover: #2959d6;
+  --accent: #00b383;
+  --danger: #e74c3c;
+  --ok: #2ecc71;
+  --border: rgba(0, 0, 0, 0.15);
+  --input-bg: #ffffff;
+  --btn-bg: #f1f3f5;
+  --btn-text: #1a1a1a;
+  --btn-hover: #e2e6ea;
+}
+
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --text: #ffffff;
+  --muted: #94a3b8;
+  --primary: #4f83f8;
+  --primary-hover: #3b73f7;
+  --accent: #2dd4bf;
+  --danger: #f87171;
+  --ok: #34d399;
+  --border: rgba(255, 255, 255, 0.1);
+  --input-bg: #1e293b;
+  --btn-bg: #334155;
+  --btn-text: #ffffff;
+  --btn-hover: #475569;
+}
+
+/* Force all text to use the theme's text color */
+[data-theme="dark"] {
+  color-scheme: dark;
+  
+  /* Base text color for all elements */
+  color: var(--text);
+  
+  /* Force text color on all elements */
+  *, 
+  *::before, 
+  *::after {
+    color: inherit;
+  }
+  
+  /* Form elements */
+  input,
+  textarea,
+  select,
+  button,
+  .btn {
+    color: var(--text);
+    background-color: var(--input-bg);
+  }
+  
+  /* Buttons */
+  .btn {
+    color: var(--btn-text);
+  }
+  
+  .btn.primary {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+  }
+  
+  .btn.subtle {
+    background: transparent;
+    color: var(--text);
+  }
+  
+  .btn.subtle:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--border);
+  }
+  
+  /* Tabs */
+  .tab {
+    color: var(--text);
+  }
+  
+  .tab:not(.active):hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  /* Make sure all text is visible */
+  h1, h2, h3, h4, h5, h6,
+  p, span, div, a,
+  label, input, textarea, select, button {
+    color: var(--text);
+  }
+  
+  /* Override any specific element that might be forcing a color */
+  .muted {
+    color: var(--muted) !important;
+  }
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  background: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  line-height: 1.5;
+}
+
+/* Base text color inheritance */
+body,
+input,
+textarea,
+select,
+button {
+  color: var(--text);
+}
+
+/* Force all text to inherit the theme color */
+h1, h2, h3, h4, h5, h6,
+p, span, div, a,
+label, input, textarea, select, button {
+  color: inherit;
+}
+
+/* Ensure form elements are visible */
+input,
+textarea,
+select {
+  background-color: var(--input-bg);
+  border: 1px solid var(--border);
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.hidden{display:none}
+.centered{
+  max-width:420px;margin:6vh auto;padding:24px;
+}
+.container{max-width:920px;margin:24px auto;padding:0 16px}
+.brand{letter-spacing:.5px}
+.brand.small{font-size:18px; color: white;}
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+.topbar{
+  position:sticky;top:0;z-index:10;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 16px;background:rgba(10,15,30,.7);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--border);
+  color: white; /* Force white text in topbar */
+}
+
+/* Ensure brand text in topbar is white */
+.topbar .brand {
+  color: white !important;
+}
+
+/* Ensure welcome message and logout button are white */
+.topbar #welcome,
+.topbar #logout {
+  color: white !important;
+  margin: 0 12px;
+}
+
+/* Style for logout button in topbar */
+.topbar #logout {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.topbar #logout:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+.muted{color:var(--muted)}
+.tiny{font-size:12px}
+.form{display:none;gap:10px;flex-direction:column}
+.form.visible{display:flex}
+label{font-size:14px;color:var(--muted)}
+input{
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 12px;
+  border-radius: 10px;
+  outline: none;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+input:focus{border-color:var(--primary)}
+.btn{
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5;
+}
+.btn:hover {
+  background: var(--btn-hover);
+  border-color: var(--border);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.btn.primary {
+  background: var(--primary);
+  color: white;
+  border: 1px solid var(--primary);
+}
+.btn.primary:hover {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(58, 111, 244, 0.3);
+}
+.btn.subtle {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text);
+}
+.btn.subtle:hover {
+  background: rgba(0,0,0,0.05);
+  border-color: var(--border);
+}
+.icon-btn{background:transparent;border:none;font-size:20px;cursor:pointer;color:var(--text)}
+
+.tabs{display:flex;gap:8px;margin:8px 0 16px}
+.tab{
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--input-bg);
+  color: var(--text);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.tab.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.tab:not(.active):hover {
+  background: var(--btn-hover);
+}
+
+.grid.categories{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px;margin-top:12px
+}
+.category{font-weight:600;text-align:left}
+.category:hover{outline:2px solid var(--accent)}
+
+.quiz-header{display:flex;align-items:center;gap:12px}
+.progress{height:10px;background:var(--input-bg);border:1px solid var(--border);border-radius:999px;overflow:hidden;margin:16px 0}
+.progress-bar{height:100%;width:0;background:linear-gradient(90deg,var(--accent),#9fffd9);transition:width .25s ease}
+
+.options{display:grid;gap:10px;margin-top:6px}
+.option{
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--input-bg);
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.option.selected{outline:2px solid var(--primary)}
+.option.correct{background:rgba(76,217,100,.15);border-color:rgba(76,217,100,.45)}
+.option.wrong{background:rgba(255,107,107,.12);border-color:rgba(255,107,107,.45)}
+
+.actions{display:flex;justify-content:space-between;gap:10px;margin-top:14px}
+
+.review-list{display:grid;gap:12px;margin-top:12px}
+.review-item{padding:12px;border-radius:12px;background:var(--input-bg);border:1px solid var(--border);transition: background-color 0.3s ease, border-color 0.3s ease;}
+.review-item.correct{border-color:rgba(76,217,100,.45)}
+.review-item.wrong{border-color:rgba(255,107,107,.45)}
+
+@media (max-width:520px){
+  .centered{margin:2vh auto}
+}
+.dark body{background:#0b1020}

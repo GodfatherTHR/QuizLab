@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "Hyperlink and Text Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": "HyperText Markup Language"
+  },
+  {
+    "question": "Which tag links a CSS file?",
+    "options": [
+      "<css>",
+      "<style>",
+      "<link>",
+      "<sheet>"
+    ],
+    "answer": "<link>"
+  },
+  {
+    "question": "Which property sets text color in CSS?",
+    "options": [
+      "text-color",
+      "color",
+      "font-color",
+      "fg"
+    ],
+    "answer": "color"
+  },
+  {
+    "question": "Which API fetches resources?",
+    "options": [
+      "XMLHttpRequest",
+      "fetch",
+      "request()",
+      "httpGet"
+    ],
+    "answer": "fetch"
+  },
+  {
+    "question": "Flexbox aligns items on which axis by default?",
+    "options": [
+      "Main axis",
+      "Cross axis",
+      "Z axis",
+      "Grid axis"
+    ],
+    "answer": "Main axis"
+  },
+  {
+    "question": "Which tag loads JS?",
+    "options": [
+      "<script>",
+      "<link>",
+      "<js>",
+      "<import>"
+    ],
+    "answer": "<script>"
+  },
+  {
+    "question": "LocalStorage method to save is:",
+    "options": [
+      "set()",
+      "save()",
+      "setItem()",
+      "putItem()"
+    ],
+    "answer": "setItem()"
+  },
+  {
+    "question": "HTTP status for 'Not Found'?",
+    "options": [
+      "200",
+      "301",
+      "404",
+      "500"
+    ],
+    "answer": "404"
+  },
+  {
+    "question": "Which is a CSS layout system?",
+    "options": [
+      "Flexbox",
+      "NumPy",
+      "Django",
+      "Babel"
+    ],
+    "answer": "Flexbox"
+  },
+  {
+    "question": "Which attribute sets image source?",
+    "options": [
+      "src",
+      "href",
+      "alt",
+      "load"
+    ],
+    "answer": "src"
+  },
+  {
+    "question": "Which is a package manager?",
+    "options": [
+      "npm",
+      "pip",
+      "apt",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "What is a SPA?",
+    "options": [
+      "Single Page Application",
+      "Standard Page App",
+      "Static Page App",
+      "Server Page App"
+    ],
+    "answer": "Single Page Application"
+  },
+  {
+    "question": "Which framework is React-based meta-framework?",
+    "options": [
+      "Next.js",
+      "Django",
+      "Flask",
+      "Laravel"
+    ],
+    "answer": "Next.js"
+  },
+  {
+    "question": "CSS Grid is best for:",
+    "options": [
+      "Two-dimensional layouts",
+      "Text formatting",
+      "HTTP routing",
+      "Animations"
+    ],
+    "answer": "Two-dimensional layouts"
+  },
+  {
+    "question": "Which semantic tag represents navigation?",
+    "options": [
+      "<section>",
+      "<article>",
+      "<nav>",
+      "<header>"
+    ],
+    "answer": "<nav>"
+  },
+  {
+    "question": "What do PWAs leverage to work offline?",
+    "options": [
+      "Service workers",
+      "Web sockets",
+      "SVG",
+      "Canvas"
+    ],
+    "answer": "Service workers"
+  },
+  {
+    "question": "Which header allows CORS?",
+    "options": [
+      "X-Frame-Options",
+      "Access-Control-Allow-Origin",
+      "Cache-Control",
+      "Content-Type"
+    ],
+    "answer": "Access-Control-Allow-Origin"
+  },
+  {
+    "question": "Which tool bundles JS?",
+    "options": [
+      "Webpack",
+      "Pandas",
+      "TensorFlow",
+      "Keras"
+    ],
+    "answer": "Webpack"
+  },
+  {
+    "question": "Which database is document-oriented?",
+    "options": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "MariaDB"
+    ],
+    "answer": "MongoDB"
+  },
+  {
+    "question": "Viewport meta tag helps with:",
+    "options": [
+      "Responsive design",
+      "SEO only",
+      "Caching",
+      "Security"
+    ],
+    "answer": "Responsive design"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is the main goal of data science?",
+    "options": [
+      "Collecting data",
+      "Analyzing data",
+      "Extracting insights",
+      "Cleaning data"
+    ],
+    "answer": "Extracting insights"
+  },
+  {
+    "question": "Which programming languages are most common in data science?",
+    "options": [
+      "Python",
+      "R",
+      "Julia",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "Which library is used for data manipulation in Python?",
+    "options": [
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Scikit-learn"
+    ],
+    "answer": "Pandas"
+  },
+  {
+    "question": "What does ETL stand for?",
+    "options": [
+      "Extract, Transform, Load",
+      "Evaluate, Test, Learn",
+      "Encode, Train, Load",
+      "Extract, Translate, Link"
+    ],
+    "answer": "Extract, Transform, Load"
+  },
+  {
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "options": [
+      "Supervised uses labeled data",
+      "Unsupervised needs labels",
+      "Both need labels",
+      "No difference"
+    ],
+    "answer": "Supervised uses labeled data"
+  },
+  {
+    "question": "Which algorithm is used for clustering?",
+    "options": [
+      "K-Means",
+      "Linear Regression",
+      "Logistic Regression",
+      "Naive Bayes"
+    ],
+    "answer": "K-Means"
+  },
+  {
+    "question": "What is feature scaling?",
+    "options": [
+      "Normalizing features",
+      "Selecting features",
+      "Removing features",
+      "Transforming categorical features"
+    ],
+    "answer": "Normalizing features"
+  },
+  {
+    "question": "Which plot is best for correlation?",
+    "options": [
+      "Histogram",
+      "Scatter plot",
+      "Line chart",
+      "Bar chart"
+    ],
+    "answer": "Scatter plot"
+  },
+  {
+    "question": "Which metric is best for imbalanced datasets?",
+    "options": [
+      "Accuracy",
+      "Precision-Recall",
+      "RMSE",
+      "MAE"
+    ],
+    "answer": "Precision-Recall"
+  },
+  {
+    "question": "What does NLP stand for?",
+    "options": [
+      "Natural Language Processing",
+      "Numerical Learning Process",
+      "Neural Language Prediction",
+      "Natural Logic Programming"
+    ],
+    "answer": "Natural Language Processing"
+  },
+  {
+    "question": "Which database is NoSQL?",
+    "options": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "SQLite"
+    ],
+    "answer": "MongoDB"
+  },
+  {
+    "question": "What is the purpose of cross-validation?",
+    "options": [
+      "Avoid overfitting",
+      "Improve accuracy",
+      "Test speed",
+      "Remove data"
+    ],
+    "answer": "Avoid overfitting"
+  },
+  {
+    "question": "Which model is used for dimensionality reduction?",
+    "options": [
+      "PCA",
+      "Random Forest",
+      "Logistic Regression",
+      "Naive Bayes"
+    ],
+    "answer": "PCA"
+  },
+  {
+    "question": "What is big data defined by?",
+    "options": [
+      "Volume, Velocity, Variety",
+      "Vision, Value, Variety",
+      "Volume, Variance, Value",
+      "Volume, Validation, Velocity"
+    ],
+    "answer": "Volume, Velocity, Variety"
+  },
+  {
+    "question": "Which platform is widely used for big data processing?",
+    "options": [
+      "Spark",
+      "Excel",
+      "Access",
+      "Tableau"
+    ],
+    "answer": "Spark"
+  },
+  {
+    "question": "What is deep learning?",
+    "options": [
+      "Subset of machine learning",
+      "Subset of statistics",
+      "Subset of AI",
+      "Subset of big data"
+    ],
+    "answer": "Subset of machine learning"
+  },
+  {
+    "question": "Which activation function is widely used?",
+    "options": [
+      "ReLU",
+      "Sigmoid",
+      "Softmax",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "question": "What is reinforcement learning based on?",
+    "options": [
+      "Rewards",
+      "Labels",
+      "Clusters",
+      "Graphs"
+    ],
+    "answer": "Rewards"
+  },
+  {
+    "question": "Which visualization tool is open-source?",
+    "options": [
+      "Power BI",
+      "Tableau",
+      "Matplotlib",
+      "Excel"
+    ],
+    "answer": "Matplotlib"
+  },
+  {
+    "question": "Which data type is handled in time series analysis?",
+    "options": [
+      "Images",
+      "Text",
+      "Sequential data over time",
+      "Graphs"
+    ],
+    "answer": "Sequential data over time"
+  }
+]

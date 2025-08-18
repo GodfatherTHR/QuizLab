@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="app">
+    <!-- Auth Screens -->
+    <section id="auth-screen" class="card centered">
+      <h1 class="brand">QuizLab</h1>
+      <div class="tabs">
+        <button class="tab active" data-tab="login">Login</button>
+        <button class="tab" data-tab="signup">Sign Up</button>
+      </div>
+
+      <form id="login-form" class="form visible">
+        <label>Email</label>
+        <input type="email" id="login-email" placeholder="you@example.com" required />
+        <label>Password</label>
+        <input type="password" id="login-password" placeholder="••••••••" required minlength="6"/>
+        <button type="submit" class="btn primary">Login</button>
+      </form>
+
+      <form id="signup-form" class="form">
+        <label>Name</label>
+        <input type="text" id="signup-name" placeholder="Your name" required />
+        <label>Email</label>
+        <input type="email" id="signup-email" placeholder="you@example.com" required />
+        <label>Password</label>
+        <input type="password" id="signup-password" placeholder="At least 6 characters" required minlength="6"/>
+        <button type="submit" class="btn primary">Create Account</button>
+      </form>
+
+      <p class="muted tiny">Demo auth stored locally in your browser (no server).</p>
+    </section>
+
+    <!-- Dashboard -->
+    <header id="topbar" class="topbar hidden">
+      <div class="left">
+        <span class="brand small">QuizLab</span>
+      </div>
+      <div class="right">
+        <button id="theme-toggle" class="icon-btn" title="Toggle theme">🌓</button>
+        <span id="welcome" class="muted"></span>
+        <button id="logout" class="btn subtle">Logout</button>
+      </div>
+    </header>
+
+    <main id="dashboard" class="container hidden">
+      <h2>Choose a category</h2>
+      <div class="grid categories">
+        <button class="card category" data-cat="programming">Programming</button>
+        <button class="card category" data-cat="cybersecurity">Cyber Security</button>
+        <button class="card category" data-cat="machine_learning">Machine Learning</button>
+        <button class="card category" data-cat="web_development">Web Development</button>
+        <button class="card category" data-cat="microservices">Microservices</button>
+        <button class="card category" data-cat="devops">DevOps</button>
+        <button class="card category" data-cat="software_development">Software Development</button>
+        <button class="card category" data-cat="data_science">Data Science</button>
+      </div>
+    </main>
+
+    <!-- Quiz Screen -->
+    <section id="quiz-screen" class="container hidden">
+      <div class="quiz-header">
+        <button id="back-to-dashboard" class="btn subtle">← Categories</button>
+        <h2 id="quiz-title">Quiz</h2>
+      </div>
+
+      <div class="progress">
+        <div id="progress" class="progress-bar"></div>
+      </div>
+
+      <div id="quiz-box" class="card">
+        <div id="question-box">
+          <h3 id="question"></h3>
+          <div id="options" class="options"></div>
+        </div>
+        <div class="actions">
+          <button id="prev-btn" class="btn">Previous</button>
+          <button id="next-btn" class="btn">Next</button>
+          <button id="submit-btn" class="btn primary">Submit</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review Screen -->
+    <section id="review-screen" class="container hidden">
+      <div class="quiz-header">
+        <button id="back-to-categories" class="btn subtle">← Categories</button>
+        <h2>Your Results</h2>
+      </div>
+      <div class="card">
+        <h3 id="score"></h3>
+        <div id="review-list" class="review-list"></div>
+        <div class="actions">
+          <button id="retry-btn" class="btn">Retry Category</button>
+          <button id="home-btn" class="btn">Home</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
