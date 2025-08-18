@@ -107,6 +107,7 @@ const CATEGORY_MAP = {
   devops: 'DevOps',
   software_development: 'Software Development',
   data_science: 'Data Science',
+   dsa : 'DSA',
 };
 
 let state = {
